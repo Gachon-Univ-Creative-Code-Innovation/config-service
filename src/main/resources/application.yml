@@ -6,7 +6,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/your-username/your-config-repo.git
+          uri: https://github.com/Gachon-Univ-Creative-Code-Innovation/config-repo.git
           default-label: main
-          search-paths:
-            - config
+          search-paths: '{application}'
