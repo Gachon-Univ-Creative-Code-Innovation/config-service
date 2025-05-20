@@ -9,3 +9,9 @@ spring:
           uri: https://github.com/Gachon-Univ-Creative-Code-Innovation/config-repo.git
           default-label: main
           search-paths: '{application}'
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "health"
